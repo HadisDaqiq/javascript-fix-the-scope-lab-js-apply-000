@@ -14,11 +14,13 @@ function yourAnimal() {
 function add2(n) {
     // Feel free to move things around!
   const two = 2
-  return n + two;
+  return n + two
 }
 
 var funkyFunction = function() {
+  function() {
     return "FUNKY!"
+  }
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
